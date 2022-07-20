@@ -15321,7 +15321,7 @@
 											"top": 188,
 											"width": 151,
 											"height": 13,
-											"text": "-Loai: LoaiSP",
+											"text": "-Loai: Integer",
 											"horizontalAlignment": 0
 										},
 										{
@@ -16818,30 +16818,13 @@
 											"height": 13,
 											"text": "-SoLuong: Integer",
 											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLAttributeView",
-											"_id": "AAAAAAGCC34txc37BSk=",
-											"_parent": {
-												"$ref": "AAAAAAGCC2jOBMuLtTE="
-											},
-											"model": {
-												"$ref": "AAAAAAGCC34ttM34KQQ="
-											},
-											"font": "Arial;13;0",
-											"left": 365,
-											"top": 449,
-											"width": 143,
-											"height": 13,
-											"text": "-ThanhTien: Double",
-											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 360,
 									"top": 369,
 									"width": 153,
-									"height": 98
+									"height": 83
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -16864,7 +16847,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 365,
-											"top": 472,
+											"top": 457,
 											"width": 143,
 											"height": 13,
 											"text": "+getter()",
@@ -16881,7 +16864,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 365,
-											"top": 487,
+											"top": 472,
 											"width": 143,
 											"height": 13,
 											"text": "+setter()",
@@ -16890,7 +16873,7 @@
 									],
 									"font": "Arial;13;0",
 									"left": 360,
-									"top": 467,
+									"top": 452,
 									"width": 153,
 									"height": 38
 								},
@@ -19742,9 +19725,7 @@
 							},
 							"name": "Loai",
 							"visibility": "private",
-							"type": {
-								"$ref": "AAAAAAGCC2dAEsrPG8c="
-							}
+							"type": "Integer"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -20195,16 +20176,6 @@
 							"name": "SoLuong",
 							"visibility": "private",
 							"type": "Integer"
-						},
-						{
-							"_type": "UMLAttribute",
-							"_id": "AAAAAAGCC34ttM34KQQ=",
-							"_parent": {
-								"$ref": "AAAAAAGCC2jOBMuDc48="
-							},
-							"name": "ThanhTien",
-							"visibility": "private",
-							"type": "Double"
 						}
 					],
 					"operations": [
